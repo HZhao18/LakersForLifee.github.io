@@ -1,0 +1,113 @@
+.p1 {
+  border: 3px solid blue;
+    color: blue;
+    background:orange;
+    text-align: center;
+    }
+
+.p2 {
+    width: 300px;
+    height: 40px;
+     }
+
+.p3 {
+  font-family:  ;
+  font-size: ;
+  font-weight: bold;
+
+  text-align: ;
+  height:;
+  width:  ;
+
+  margin:2%;
+  padding:inherit;
+
+  border-radius:  ;
+  text-shadow:  ;
+
+  display:   ;
+  position:  ;
+}
+
+
+
+.text {
+  color:orange;
+  background-color: blue;
+
+  font-size: 30px;
+  font-family: courier;
+  font-weight: bold;
+  font-style: italic;
+
+
+  border: 2px solid orange;
+  box-shadow: 10px 5px 10px blue;
+  width: 400px;
+  height: 60px;
+
+  margin-left: 30%;
+  padding: 2% 4%;
+  text-align: center;
+  text-shadow: 20px 15px 10px blue;
+
+}
+
+.image1 {
+   float:left;
+   width:40%;
+   margin: 4%;
+   border: 2px solid purple;
+   border-radius: 10px;
+   box-shadow: 10px 5px 10px purple;
+   filter:grayscale(10);
+
+}
+
+ .image2{
+   float: left;
+   width:15%;
+   margin: 2%;
+
+
+
+ }
+
+
+ .image3{
+   border: 2px solid orange;
+   border-radius: 10px;
+   box-shadow: 10px 5px 10px blue
+
+ }
+
+ .image4{
+   float: left;
+   width:30%;
+   margin: 5%;
+   border: 2px solid orange;
+   border-radius: 10px;
+   box-shadow: 10px 5px 10px blue;
+
+
+ }
+
+
+.image8{
+  float: left;
+  width:100%;
+  margin: 5%;
+  border: 2px solid orange;
+  border-radius: 10px;
+  box-shadow: 10px 5px 10px blue;
+
+}
+ .imageblock{
+    border: 2px solid orange;
+    width:100%;
+    height:300px;
+ }
+
+
+
+}
