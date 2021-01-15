@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+.div1 {
+  border: 1px solid red;
+  width: 50%;
+  float:left;
+}
+
+.div2 {
+  border: 1px solid red;
+  width: 50%;
+  float:left;
+}
+
+.content{
+  display: none;
+}
+
+.linkModal{
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+
+.modalWindow{
+  position: fixed; top: 0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(130, 80, 160, 0.8);
+  opacity: 0;
+  pointer-events: none;
+
+}
+
+
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.header{
+  background-color: pink;
+}
+.msg{
+  color: white;
+  position: relative;
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 200px;
+  background: orange;
+}
+
+.modalclose{
+  color: purple;
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
