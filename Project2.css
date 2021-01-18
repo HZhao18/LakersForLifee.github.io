@@ -1,0 +1,247 @@
+*{
+  box-sizing: border-box;
+}
+
+.imagecontainer{
+  width: 100%;
+  position: relative;
+
+}
+
+.imagecontainer2{
+  width: 100%;
+  position: relative;
+
+}
+
+
+
+.textblock{
+  border: 1px solid white;
+  position: absolute;
+  top: 70%;
+  right: 50%;
+  left:10%;
+  background-color: lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.textblock2{
+  border: 1px solid olive;
+  position: absolute;
+  top: 20%;
+  right: 70%;
+  left:10%;
+  background-color: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+
+
+}
+.textblock3{
+  border: 1px solid gray;
+  color: olive;
+  background-color: #EAFFDC;
+  right: 100%;
+  left:10%;
+  top: 30%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.text{
+  border: 1px solid olive;
+  background-color: olive;
+  color: white;
+}
+
+.text2{
+  color: olive;
+}
+
+.introtext{
+  position:relative;
+}
+
+.div1 {
+  border: 1px solid white;
+  background-color: white;
+  width: 35%;
+  float:left;
+}
+
+.div2 {
+  border: 1px solid white;
+  background-color: white;
+  width: 35%;
+  float:left;
+}
+
+
+.div3 {
+  border: 1px solid white;
+  background-color: white;
+  width: 30%;
+  float:left;
+}
+
+.image{
+  width: 200px
+}
+
+.content{
+  display: none;
+}
+
+.linkModal{
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.modalWindow{
+  position: fixed; top: 0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(100, 80, 160, 0.8);
+  opacity: 0;
+  pointer-events: none;
+
+}
+
+
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.header{
+  background-color: pink;
+}
+.msg{
+  color: black;
+  position: relative;
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 200px;
+  background: white;
+}
+
+.modalclose{
+  color: black
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  background-color: white
+}
+
+
+
+.logoimage{
+  border: 3px solid olive;
+  width: 35%;
+  animation: logoimage_animation 50s linear infinite;
+}
+
+@keyframes logoimage_animation {
+  0% {transform: translate();}
+  25%{transform: translate(50px,80px);}
+  50%{transform: translate(-50px,-50px);}
+  100%{transform: translate(0px,0px);}
+
+}
+.title{
+  float:left;
+  width: 50%;
+}
+
+.logoimage2{
+  width: 100%
+}
+
+.logoimage3{
+  float: left;
+  filter: contrast(50%);
+  width: 40%;
+}
+
+.logoimage4{
+
+  filter: contrast(50%);
+  width: 40%;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.title{
+  color: olive;
+  font-family: cursive;
+
+}
+
+.chip{
+  border: 3px solid purple
+}
+
+.modalpic{
+  width: 20%;
+  float:left;
+  /*border: 2px solid red; */
+}
+
+.modaltext{
+  float:left;
+  width: 50%
+  /*height: 50px; */
+  /*border: 2px solid red; */
+}
+
+.modaltext2{
+  float: left;
+  background-color: lightgray;
+  /*height: 50px; */
+  /*border: 2px solid red; */
+}
+
+.giftsetbackground{
+  background-color: beige;
+}
+
+.footercontainer{
+  background-color: #212329;
+  padding-bottom: 4rem;
+}
+
+.footer{
+  width: 80%;
+  height: 40vh;
+  background-color: #212329;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading a{
+  color: white;
+  text-decoration: none;
+}
