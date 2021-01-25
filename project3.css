@@ -1,0 +1,19 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(211,211,221);
+    background: linear-gradient(90deg, rgba(211,211,221,1) 36%, rgba(0,255,191,1) 100%);
+
+}
+
+body {
+    text-align: center;
+}
+
+
+.hints {
+    color: white;
+}
+
+.answers{
+    color:white;
+}
